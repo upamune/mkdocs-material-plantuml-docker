@@ -5,6 +5,7 @@ ENV PLANTUML_URL="https://repo1.maven.org/maven2/net/sourceforge/plantuml/plantu
 
 RUN apt-get update -y && \
     apt-get install --no-install-recommends -y \
+        graphviz \
         python3 \
         python3-pip \
         python3-setuptools \
