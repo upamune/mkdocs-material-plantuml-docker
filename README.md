@@ -21,6 +21,12 @@ $ docker run --rm -p 8000:8000 -v $(pwd):/docs upamune/mkdocs-material-plantuml:
 $ docker run --rm -p 8000:8000 -v $(pwd):/docs ghcr.io/upamune/mkdocs-material-plantuml:latest # OR GitHub Packages
 ```
 
+## Example
+
+https://mkdocs-material-plantuml-docker-example.netlify.app/
+
+Repository: [upamune/mkdocs-material-plantuml-docker-example](https://github.com/upamune/mkdocs-material-plantuml-docker-example)
+
 ## Acknowledgements
 
 - https://github.com/peaceiris/docker-mdbook
