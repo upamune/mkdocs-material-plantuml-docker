@@ -2,6 +2,7 @@ FROM openjdk:16-jdk-buster
 
 ARG PLANTUML_VERSION=1.2021.4
 ENV PLANTUML_URL="https://repo1.maven.org/maven2/net/sourceforge/plantuml/plantuml/${PLANTUML_VERSION}/plantuml-${PLANTUML_VERSION}.jar"
+ENV PLANTUML_LIMIT_SIZE=8192
 
 RUN apt-get update -y && \
     apt-get install --no-install-recommends -y \
