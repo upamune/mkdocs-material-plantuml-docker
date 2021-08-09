@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/openjdk-16/bin/java $PLANTUML_JAVAOPTS -Djava.awt.headless=true -jar /usr/local/lib/plantuml.jar ${@}
