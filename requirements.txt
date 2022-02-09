@@ -7,3 +7,4 @@ mkdocs-material-extensions>=1.0
 plantuml-markdown
 mkdocs-minify-plugin>=0.3
 mkdocs-redirects>=1.0
+mkdocs-mermaid2-plugin>=0.5
